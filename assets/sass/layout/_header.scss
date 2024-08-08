@@ -1,0 +1,13 @@
+.header__link{
+    text-decoration: none;
+    color: #508C9B;
+
+    &:hover{
+        color: #201E43;
+    }
+}
+
+.header__title{
+    font-style: italic;
+    font-weight: bold;
+}

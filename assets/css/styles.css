@@ -1,0 +1,46 @@
+body {
+  background-color: #EEEEEE;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.primaryBlue {
+  color: #201E43;
+}
+
+.secondaryBlue {
+  color: #134B70;
+}
+
+.tertiaryBlue {
+  color: #508C9B;
+}
+
+.bg-color {
+  color: #EEEEEE;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #508C9B;
+}
+.header__link:hover {
+  color: #201E43;
+}
+
+.header__title {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #201E43;
+  color: white;
+  border-radius: 5px;
+  width: 10em;
+  height: 3em;
+}
+.button:hover {
+  background-color: #508C9B;
+}
+
+/*# sourceMappingURL=styles.css.map */

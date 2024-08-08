@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Peter Parker</title>
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <h1 class="primaryBlue w-auto header__title">Peter Parker</h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="px-3 py-1 w-auto header__link" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="px-3 py-1 w-auto header__link" href="#habilidades">Mis habilidades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="px-3 py-1 w-auto header__link" href="#proyectos">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="px-3 py-1 w-auto header__link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="container">
+        <section>
+            <div class="row my-5">
+                <img src="assets/img/developer.svg" class="w-lg-50 col-lg-6">
+                <div class="col-lg-6 pt-5 mt-5">
+                    <h1 class="primaryBlue">Soy Peter Parker</h1>
+                    <h2 class="secondaryBlue">Desarrollador FrontEnd</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod obcaecati tempore impedit dignissimos ducimus fugiat 
+                        assumenda culpa earum atque totam minus numquam accusantium optio nam sapiente deleniti, quos voluptatem aspernatur.</p>
+                    <div class="col-12 col-lg-4">
+                        <button class="button w-100">Contáctame</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 class="text-center my-5" id="habilidades">Mis habilidades</h1>
+            <div class="my-5 d-flex d-lg-none">
+                <div class="justify-content-around col-6">
+                    <div class="d-flex align-items-center my-2">
+                        <i class="fa-brands fa-html5 fa-3x" style="color: rgb(233, 85, 0);"></i>
+                        <h6 class="mx-2">HTML</h6>
+                    </div>
+                    <div class="d-flex align-items-center my-2">
+                        <i class="fa-brands fa-css3-alt fa-3x" style="color: blue;"></i>
+                        <h6 class="mx-2">CSS</h6>
+                    </div>
+                    <div class="d-flex align-items-center my-2"> 
+                        <i class="fa-brands fa-sass fa-3x" style="color: pink;"></i>
+                        <h6 class="mx-2">SASS</h6>
+                    </div>
+                    <div class="d-flex align-items-center my-2">
+                        <i class="fa-brands fa-bootstrap fa-3x" style="color: purple;"></i>
+                        <h6 class="mx-2">Bootstrap</h6>
+                    </div> 
+                </div>
+                <div class="justify-content-around col-6">
+                    <div class="d-flex align-items-center my-2">
+                        <i class="fa-brands fa-git-alt fa-3x" style="color: rgb(233, 85, 0);"></i>
+                        <h6 class="mx-2">Git</h6>
+                    </div>
+                    <div class="d-flex align-items-center my-2"> 
+                        <i class="fa-brands fa-github fa-3x"></i>
+                        <h6 class="mx-2">GitHub</h6>
+                    </div>
+                    <div class="d-flex align-items-center my-2">
+                        <i class="fa-brands fa-js fa-3x" style="color: rgb(226, 226, 0);"></i>
+                        <h6 class="mx-2">JavaScript</h6>
+                    </div>
+                    <div class="d-flex align-items-center my-2">
+                        <i class="fa-brands fa-vuejs fa-3x" style="color: rgb(0, 187, 116)"></i>
+                        <h6 class="mx-2">Vue</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="my-5 d-none d-lg-flex">
+                <div class="d-flex justify-content-around col-12">
+                    <div class="d-flex align-items-center my-2">
+                        <i class="fa-brands fa-html5 fa-3x" style="color: rgb(233, 85, 0);"></i>
+                        <h6 class="mx-2">HTML</h6>
+                    </div>
+                    <div class="d-flex align-items-center my-2">
+                        <i class="fa-brands fa-css3-alt fa-3x" style="color: blue;"></i>
+                        <h6 class="mx-2">CSS</h6>
+                    </div>
+                    <div class="d-flex align-items-center my-2"> 
+                        <i class="fa-brands fa-sass fa-3x" style="color: pink;"></i>
+                        <h6 class="mx-2">SASS</h6>
+                    </div>
+                    <div class="d-flex align-items-center my-2">
+                        <i class="fa-brands fa-bootstrap fa-3x" style="color: purple;"></i>
+                        <h6 class="mx-2">Bootstrap</h6>
+                    </div> 
+                    <div class="d-flex align-items-center my-2">
+                        <i class="fa-brands fa-git-alt fa-3x" style="color: rgb(233, 85, 0);"></i>
+                        <h6 class="mx-2">Git</h6>
+                    </div>
+                    <div class="d-flex align-items-center my-2"> 
+                        <i class="fa-brands fa-github fa-3x"></i>
+                        <h6 class="mx-2">GitHub</h6>
+                    </div>
+                    <div class="d-flex align-items-center my-2">
+                        <i class="fa-brands fa-js fa-3x" style="color: rgb(226, 226, 0);"></i>
+                        <h6 class="mx-2">JavaScript</h6>
+                    </div>
+                    <div class="d-flex align-items-center my-2">
+                        <i class="fa-brands fa-vuejs fa-3x" style="color: rgb(0, 187, 116)"></i>
+                        <h6 class="mx-2">Vue</h6>
+                    </div>
+                </div>
+        </section>
+        <section>
+            <h1 class="text-center my-5" id="proyectos">Mis proyectos</h1>
+            <div class="row my-5">
+                <div class="col-lg-3 col-6">
+                    <img src="assets/img/meetcoffee.png" class="w-100">
+                    <h6>Meet & Coffee</h6>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <img src="assets/img/meetcoffee.png" class="w-100">
+                    <h6>Meet & Coffee</h6>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <img src="assets/img/meetcoffee.png" class="w-100">
+                    <h6>Meet & Coffee</h6>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <img src="assets/img/meetcoffee.png" class="w-100">
+                    <h6>Meet & Coffee</h6>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container">
+        <h1 class="text-center" id="contacto">Contáctame</h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <form class="mt-5">
+                    <div class="d-flex">
+                    <input class="form-control" type="text" placeholder="Nombre">
+                    <input class="form-control ms-3" type="text" placeholder="Apellido">
+                    </div>
+                    <div>
+                        <input class="form-control mt-3" type="email" placeholder="Tu Email">
+                        <textarea class="form-control mt-3" placeholder="Escribe tu mensaje"></textarea>
+                        <div class="col-12 col-lg-4">
+                            <button class="button my-3 w-100">Enviar</button>
+                        </div>
+                    </div>
+                </form> 
+            </div>
+            <div class="col-lg-6">
+                <div class="d-flex mt-5 mb-2 align-items-center">
+                    <i class="fa-solid fa-phone mx-3"></i>
+                    <p class="m-0">+56999887766</p>
+                </div>
+                <div class="d-flex mb-2 align-items-center">
+                    <i class="fa-solid fa-envelope mx-3"></i>
+                    <p class="m-0">tuemail@gmail.com</p>
+                </div>
+                <div class="d-flex mb-2 align-items-center">
+                    <i class="fa-brands fa-linkedin mx-3"></i>
+                    <p class="m-0">tulinkedin.com</p>
+                </div>
+                <div class="d-flex mb-2 align-items-center">
+                    <i class="fa-brands fa-github mx-3"></i>
+                    <p class="m-0">Tu Github</p>
+                </div>
+                <div class="d-flex mb-2 align-items-center">
+                    <i class="fa-brands fa-instagram mx-3"></i>
+                    <p class="m-0">Tu Instagram</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
